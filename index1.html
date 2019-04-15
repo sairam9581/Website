@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <title>ESFM</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css1/main.css">
+   
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <link rel="stylesheet" href="assets/plugins/metro/MetroJs.min.css">
+    <link rel="stylesheet" href="assets/plugins/morris/morris.css">
+    <link href="assets/plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/animate/animate.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/fullcalendar.min.css" rel="stylesheet">    
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+   <style>
+    .modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+  </style>
+  <body class="app sidebar-mini rtl">
+    <!-- Navbar-->
+    <header class="app-header" style="border-right: 10px;color: black;"><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"><a class="app-header__logo" href="#"> </a></a>
+      <!-- Sidebar toggle button--><a style="color: black; font-size: 17px;margin-left: 105px;"> </a>
+        
+        <ul class="list-inline float-right mb-0" style="margin-left:391px; font-size: 24px;">eSFM - CICONNECT
+                                <img src="assets/images/ci connect logo.png" width="200" height="30" style="margin-left: -772px; padding-left: 26px; margin-bottom: 13px;"></img>
+                               <li class="list-inline-item dropdown notification-list"><a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" href="#" role="button" aria-haspopup="false" aria-expanded="false"><i class="ti-settings noti-icon" style="margin-left: 916px;"></i></a>
+                                                                
+                             </li>
+                            <li class="list-inline-item dropdown notification-list"><a class="nav-link dropdown-toggle arrow-none waves-effect waves-light"  href="#" role="button" aria-haspopup="false" aria-expanded="false"><i class="ti-bell noti-icon"></i> <span class="badge badge-success noti-icon-badge">0</span></a>
+                                                           
+                              </li>
+                              <li class="list-inline-item dropdown notification-list"><a class="nav-link dropdown-toggle arrow-none waves-effect waves-light"  href="#" role="button" aria-haspopup="false" aria-expanded="false"><i class="ti-lock noti-icon"></i></a>
+                                                           
+                              </li>
+                     
+                        </ul>
+
+      </a>
+      <!-- Navbar Right Menu-->
+      
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="assets/images/users/avatar-1.jpg" width="60" height="60" alt="User Image">
+        <div>
+          <p class="app-sidebar__user-name">Vijay Baskar</p>
+          <p class="app-sidebar__user-designation"> Manager</p>
+        </div>
+      </div>
+      <hr style="size: 5px">
+      <ul class="app-menu">
+        <li><a class="app-menu__item " href="#"><img class="iconset" src="assets/images/skins/icon_home.png"><span class="app-menu__label"> &nbsp;&nbsp;Team Barometer</span></a></li>
+        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><img class="iconset" src="assets/images/skins/icon_tasks.png"><span class="app-menu__label"> &nbsp;&nbsp;Task Monitoring</span></a>
+          
+        </li>
+        <li><a class="app-menu__item" href="#"><img class="iconset" src="assets/images/skins/icon_messages.png"><span class="app-menu__label"> &nbsp; &nbsp;Support Activities</span></a></li>
+        <li ><a class="app-menu__item" href="#" data-toggle><img class="iconset" src="assets/images/skins/icon_analytics.png"></i><span class="app-menu__label">&nbsp;&nbsp; Project Dashboard </span>
+        <li ><a class="app-menu__item" href="#" data-toggle><img class="iconset" src="assets/images/skins/icon_project_1.png"></i><span class="app-menu__label"> &nbsp;&nbsp; Customer Satisfaction</span></i></a>
+           <li><a class="app-menu__item" href="#"><img class="iconset" src="assets/images/skins/icon_calendar.png"><span class="app-menu__label"> &nbsp;&nbsp; Revneue & Consulting</span></a></li>
+            <li><a class="app-menu__item" href="#"><img class="iconset" src="assets/images/skins/icon_layots.png"><span class="app-menu__label"> &nbsp;&nbsp; Capacity Management</span></a></li>
+         
+        </li>
+      </ul>
+    </aside>
+    <main class="app-content">
+      
+      <div class="new-wrapper">
+    <!-- Start content -->
+
+      <div class="content">
+                <!-- Top Bar Start -->
+                <div class="topbar">
+                  
+                        </ul>
+                        <div class="clearfix"></div>
+                    </nav>
+
+                </div>
+
+                <!-- Top Bar End -->
+                               
+                        <div class="row">
+                            <div class="col-md-12">
+                         <nav aria-label="breadcrumb">
+                          
+                        
+                              <ol class="breadcrumb">
+                                
+                                <li class="breadcrumb-item page-title" style="font-size: 18px;" aria-current="page">
+                                View Barometer</li>
+                              </ol>
+                            </nav>
+                        </div> 
+
+                    </div>
+                    
+                        <div class="container">
+                 
+                          <div class="row">
+                            <div class="col">
+                                <img src="assets/images/completed.png" width="40px">
+                             <span style="font-size:16px;">100% Utilization</span>
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/yellow.png" width="40px">
+                              <span style="font-size:16px">Under Utilization</span>
+                            </div>
+                            <div class="col">
+                                <img src="assets/images/red.png" width="40px">
+                              <span style="font-size:16px">Over Utilization</span>
+                            </div>
+                          </div>
+                        </div><br>
+                    
+                    
+
+                   <div class="Calenar-main">
+                         <h4 style="border-top: 2px solid #bbb;background-color: lightgrey;line-height: 1.5em">
+                            <span style="margin-right: 10%"><i class="fa fa-chevron-left" style="color: #bbb;;margin-right: 10%" aria-hidden="true"></i>
+                              December 2018    <i class="fa fa-chevron-right" style="color: #bbb;margin-left: 10%"></i></span></h4>
+                        <div class="row">
+                            <div class="offset-2"></div>
+                          <div class="col-1"> <p>Mon</p></div>
+                          <div class="col-1"> <p>Tue</p></div>
+                          <div class="col-1"> <p>Wed</p></div>
+                          <div class="col-1"> <p>Thu</p></div>
+                          <div class="col-1"> <p>Fri</p></div>
+                          <div class="col-1"> <p>Sat</p></div>
+                          <div class="col-1"> <p>Sun</p></div>
+                          <div class="offset-2"></div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="offset-2"></div>
+                          <div class="col-1"> <a ><p style="color: #e0dddd">29</p></a></div>
+                          <div class="col-1"> <a ><p style="color: #e0dddd">30</p></a></div>
+                          <div class="col-1"> <a ><p style="color: #e0dddd">31</p></a></div>
+                          <div class="col-1"> <a href="#alertbox" data-toggle="modal" data-target="#alertbox" ><p class="dotblue list-inline-item dropdown notification-list">1<span class="badge  noti-icon-badge" style="top: -13px"><i class="em em-neutral_face" style="font-size: 25px"></i></span></p></a>
+                             </div>
+                          <div class="col-1"> <a href="#alertbox" data-toggle="modal" data-target="#alertbox"><p class="dotblue list-inline-item dropdown notification-list">2<span class="badge  noti-icon-badge" style="top: -13px"><i class="em em-grinning" style="font-size: 25px"></i></span></p></a>
+                             </div>
+                          <div class="col-1"> <p>3</p></div>
+                          <div class="col-1"> <p>4</p></div>
+                          <div class="offset-2"></div>
+                        </div>
+
+                         <div class="row">
+                            <div class="offset-2"></div>
+                          <div class="col-1"> <p>5</p></div>
+                          <div class="col-1"> <p>6</p></div>
+                          <div class="col-1"> <p>7</p></div>
+                          <div class="col-1"> <p>8</p></div>
+                          <div class="col-1"> <p>9</p></div>
+                          <div class="col-1"> <p>10</p></div>
+                          <div class="col-1"> <p>11</p></div>
+                          <div class="offset-3"></div>
+                        </div>
+
+                         <div class="row">
+                            <div class="offset-2"></div>
+                          <div class="col-1"> <p>12</p></div>
+                          <div class="col-1"> <p>13</p></div>
+                          <div class="col-1"> <p>14</p></div>
+                          <div class="col-1"> <p>15</p></div>
+                          <div class="col-1"> <p>16</p></div>
+                          <div class="col-1"> <p>17</p></div>
+                          <div class="col-1"> <p>18</p></div>
+                          <div class="offset-3"></div>
+                        </div>
+
+                         <div class="row">
+                            <div class="offset-2"></div>
+                          <div class="col-1"> <p>19</p></div>
+                          <div class="col-1"> <p>20</p></div>
+                          <div class="col-1"> <p>21</p></div>
+                          <div class="col-1"> <p>22</p></div>
+                          <div class="col-1"> <p>23</p></div>
+                          <div class="col-1"> <p>24</p></div>
+                          <div class="col-1"> <p>25</p></div>
+                          <div class="offset-3"></div>
+                        </div>
+
+                         <div class="row">
+                            <div class="offset-2"></div>                          
+                          <div class="col-1"> <p>26</p></div>
+                          <div class="col-1"> <p>27</p></div>
+                          <div class="col-1"> <p>28</p></div>
+                          <div class="col-1"> <p>1</p></div>
+                          <div class="col-1"> <p>2</p></div>
+                          <div class="col-1"> <p>3</p></div>
+                          <div class="col-1"> <p>4</p></div>
+                          <div class="offset-3"></div>
+                        </div>
+                     
+                    </div>
+
+                
+                                   
+                    </div>
+                  
+                </div>
+            </div>
+        </div>                
+    </div> 
+
+
+          </div>
+        <!-- content -->
+        <br>
+        <br>
+        <footer class="footer" style="bottom: -40px;">© 2018 </footer>
+    </div>
+</div>
+    <!-- End Right content here -->
+</div>
+</div>
+
+
+      <div class="col-md-6">
+        <div class="card m-b-30">
+          <div class="card-body">
+              
+                    
+                    <div id="alertbox" class="modal fade bd-example-modal-lg" id="alertbox" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" style="margin-left: 27%">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4>Date: 13-12-2018 </h4>
+                                    <button type="button" class="close text-dark" data-dismiss="modal" aria-hidden="true">×</button>
+                                </div>
+                                <div class="modal-body">
+                                    <h2 align="center" style="color: black">Enter Your Questions</h2><br>
+                                        <center>
+                                        <h4>
+                                            <input type="text" name="question">
+                                        </h4>                                        
+                                      <br>
+
+                                    <center>
+                                    <a href="capacity1.html"><button type="button" class="btn btn-outline btn-primary">Submit</button></a>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+   
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/detect.js"></script>
+    <script src="assets/js/fastclick.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/jquery.blockUI.js"></script>
+    <script src="assets/js/waves.js"></script>
+    <script src="assets/js/jquery.nicescroll.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <!-- Jquery-Ui -->
+    <script src="assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="assets/plugins/moment/moment.js"></script>
+    <script src="assets/js/fullcalendar.min.js"></script>
+    <script src="assets/pages/calendar-init.js"></script>
+    <!-- App js -->
+    <script src="assets/js/app.js"></script>
+
+
+    </script>
+     
+    </main>
+    <!-- Essential javascripts for application to work-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+<!--     <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/main.js"></script>
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="js/plugins/pace.min.js"></script>
+    <!-- Page specific javascripts-->
+<!--     <script type="text/javascript" src="js/plugins/chart.js"></script> -->
+   
+    
+     
+  </body>
+</html>
